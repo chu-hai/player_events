@@ -1,0 +1,4 @@
+#    Threshold to judge whether jumping is in progress.
+player_events.jump_adjust_threshold (Jump adjust threshold) float 0.3
+
+
