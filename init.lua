@@ -5,7 +5,7 @@ local event_emitter = {}
 local registered_event_player_move = {}
 local registered_event_change_wield = {}
 
-local jump_adjust_threshold = minetest.setting_get("player_events.jump_adjust_threshold") or 0.3
+local jump_adjust_threshold = tonumber(minetest.settings:get("player_events.jump_adjust_threshold")) or 0.3
 
 -------------------------------------------
 ----  Global Functions
